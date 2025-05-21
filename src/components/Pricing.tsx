@@ -19,7 +19,7 @@ export default function PricingSection() {
                         <div className='w-32 h-32 rounded-full border-4 border-blue-800 flex items-center justify-center mb-4'>
                             <div className='text-center'>
                                 <span className='text-xl'>$</span>
-                                <span className='text-5xl font-bold'>799</span>
+                                <span className='text-5xl font-bold'>299</span>
                             </div>
                         </div>
                         <div className='relative'>
@@ -86,7 +86,7 @@ export default function PricingSection() {
                         <div className='w-32 h-32 rounded-full border-4 border-red-500 flex items-center justify-center mb-4'>
                             <div className='text-center'>
                                 <span className='text-xl'>$</span>
-                                <span className='text-5xl font-bold'>1197</span>
+                                <span className='text-5xl font-bold'>499</span>
                             </div>
                         </div>
                         <div className='relative'>
@@ -161,7 +161,7 @@ export default function PricingSection() {
                         <div className='w-32 h-32 rounded-full border-4 border-black flex items-center justify-center mb-4'>
                             <div className='text-center'>
                                 <span className='text-xl'>$</span>
-                                <span className='text-5xl font-bold'>1917</span>
+                                <span className='text-5xl font-bold'>799</span>
                             </div>
                         </div>
                         <div className='relative'>
