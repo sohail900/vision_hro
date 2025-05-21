@@ -2,14 +2,14 @@ import { FaCheck } from 'react-icons/fa'
 
 export default function PricingSection() {
     return (
-        <section className='py-12 px-8 bg-white'>
+        <section className='pt-28 pb-12 px-8 bg-white' id='pricing'>
             <h2
                 className='text-center text-2xl text-primary mb-4'
                 style={{ fontFamily: 'Satisfy' }}
             >
                 Transparent Pricing, Tailored for You!
             </h2>
-            <h1 className='text-4xl text-black/80 text-center font-semibold mb-12'>
+            <h1 className='text-4xl text-black/80 text-center font-semibold mb-16'>
                 Our Pricing Plans
             </h1>
             <div className='grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-0 lg:border lg:border-gray-300'>

@@ -28,7 +28,7 @@ const servicesImages = [
 
 const OurServices = () => {
     return (
-        <section className='bg-secondary pt-8'>
+        <section className='bg-secondary pt-28' id='services'>
             <h2
                 className='text-center text-2xl text-primary mb-4'
                 style={{ fontFamily: 'Satisfy' }}
@@ -39,7 +39,7 @@ const OurServices = () => {
                 Our Services
             </h1>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 pt-16 '>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 pt-20'>
                 {servicesImages.map((elem) => (
                     <div
                         key={elem.id}
@@ -50,6 +50,7 @@ const OurServices = () => {
                             className='w-full h-full object-cover'
                             alt={elem.hoverTitle}
                         />
+                        <div className='absolute top-0 left-0 w-full h-full opacity-100 bg-black/30  transition-opacity group-hover:opacity-0' />
                         <h1 className='absolute top-5 left-1/2 -translate-x-1/2 text-white text-[1.1rem] font-medium text-nowrap'>
                             {elem.hoverTitle}
                         </h1>

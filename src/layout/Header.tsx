@@ -5,23 +5,22 @@ import { MdCancel } from 'react-icons/md'
 
 const navLinks = [
     { id: 1, name: 'HOME', link: '#' },
-    { id: 2, name: 'ABOUT US', link: '#' },
-    { id: 3, name: 'SERVICE', link: '#' },
-    { id: 4, name: 'PEO', link: '#' },
-    { id: 5, name: 'RESOURCES', link: '#' },
-    { id: 6, name: 'BLOG', link: '#' },
-    { id: 7, name: 'CONTACT US', link: '#' },
+    { id: 2, name: 'ABOUT US', link: '#about' },
+    { id: 3, name: 'SERVICE', link: '#services' },
+    { id: 4, name: 'PRICING', link: '#pricing' },
+    { id: 5, name: 'CONTACT US', link: '#contact' },
 ]
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [activeLink, setActiveLink] = useState(1)
 
     return (
         <nav className='fixed z-50 top-0 bg-black/60 border-b border-white w-full h-20 flex items-center justify-between px-6 lg:px-12 backdrop-blur-sm'>
             <img
-                src='/assets/logo_white.png'
+                src='/assets/logo_white2.png'
                 alt='logo'
-                className='w-24 h-24'
+                className='w-[200px] h-[80px]'
             />
 
             {/* Desktop Menu */}
@@ -30,8 +29,11 @@ const Header = () => {
                     <li key={link.id}>
                         <a
                             href={link.link}
+                            onClick={() => setActiveLink(link.id)}
                             className={`${
-                                link.id === 1 ? 'text-primary' : 'text-white'
+                                activeLink == link.id
+                                    ? 'text-primary'
+                                    : 'text-white'
                             } text-sm hover:text-primary transition`}
                         >
                             {link.name}

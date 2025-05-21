@@ -82,7 +82,10 @@ const Hero = () => {
     }, [loaded])
 
     return (
-        <div className='relative w-screen h-screen overflow-hidden bg-gray-900'>
+        <div
+            className='relative w-screen h-screen overflow-hidden bg-gray-900'
+            id='#'
+        >
             <AnimatePresence mode='wait'>
                 {loaded && (
                     <motion.div
@@ -107,6 +110,7 @@ const Hero = () => {
                                 loading='eager'
                                 decoding='async'
                             />
+                            <div className='absolute top-0 w-full h-full bg-black/30' />
                         </motion.div>
 
                         {/* Text overlay with dark semi-transparent background */}
