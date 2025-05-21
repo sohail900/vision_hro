@@ -5,29 +5,23 @@ const heroContent = [
     {
         id: 1,
         imageUrl:
-            'https://keyhro.com/wp-content/uploads/2018/08/iStock-497951217.jpg',
-        title: 'DO YOU NEED TO ADDRESS COMPLANCE ISSUE',
-    },
-    {
-        id: 2,
-        imageUrl:
             'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&auto=format',
         title: 'WE PROVIDE BEST SOLUTIONS FOR YOUR BUSINESS',
     },
     {
-        id: 3,
+        id: 2,
         imageUrl:
             'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&auto=format',
         title: 'INNOVATIVE APPROACH TO COMPLEX PROBLEMS',
     },
     {
-        id: 4,
+        id: 3,
         imageUrl:
             'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1920&auto=format',
         title: 'TRUSTED BY INDUSTRY LEADERS WORLDWIDE',
     },
     {
-        id: 5,
+        id: 4,
         imageUrl:
             'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&auto=format',
         title: 'CONTACT US FOR CUSTOMIZED SOLUTIONS',
