@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const heroContent = [
@@ -36,7 +36,7 @@ const heroContent = [
 
 const wordAnimation = {
     hidden: { opacity: 0, y: 20 },
-    visible: (i) => ({
+    visible: (i: number) => ({
         opacity: 1,
         y: 0,
         transition: {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { CiMenuFries } from 'react-icons/ci'
 import { MdCancel } from 'react-icons/md'
