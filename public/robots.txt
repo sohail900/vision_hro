@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vision-hro.vercel.app/sitemap.xml  # Optional
