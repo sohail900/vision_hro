@@ -1,15 +1,3 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-    "routes": [
-        {
-            "src": "/robots.txt",
-            "dest": "/robots.txt",
-            "headers": { "Content-Type": "text/plain" }
-        },
-        {
-            "src": "/sitemap.xml",
-            "dest": "/sitemap.xml",
-            "headers": { "Content-Type": "application/xml" }
-        }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
