@@ -162,7 +162,7 @@ export default function Footer() {
                         >
                             Privacy Policy
                         </Link>
-                        <span className='hidden md:inline'>-</span>
+{/*                         <span className='hidden md:inline'>-</span>
                         <span>
                             site by{' '}
                             <a
@@ -171,7 +171,7 @@ export default function Footer() {
                             >
                                 mshahwaiz097@gmail.com
                             </a>
-                        </span>
+                        </span> */}
                     </div>
                 </div>
             </div>
